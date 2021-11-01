@@ -1,0 +1,1089 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM sans";
+}
+.content {
+  background-color: #029f58;
+  background-image: url(assets/pattern.png);
+  background-size: cover;
+  height: 1400px;
+  color: #ffffff;
+}
+/* .container {
+  width: 82%;
+  margin: auto;
+} */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+  margin: auto;
+  width: 90%;
+}
+.logo {
+  width: 110px;
+  height: 39px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 116.6%;
+}
+.ham-label {
+  display: none;
+}
+#hamburger {
+  display: none;
+}
+.close-label {
+  display: none;
+}
+.close-text {
+  margin-right: 13px;
+}
+.content-text {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description-wrapper {
+  width: 580px;
+  margin-top: 40px;
+}
+.description {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+.title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 130px;
+  line-height: 94.6%;
+  text-align: center;
+  letter-spacing: -0.06em;
+  margin: auto;
+  width: 82%;
+}
+
+.downloadbuttons {
+  /* border: 2px solid black; */
+  display: flex;
+  margin: auto;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 82.37px;
+}
+
+.iphoneimages {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  min-height: 538px;
+  position: relative;
+}
+
+.aboutus {
+  padding-top: 143px;
+  padding-left: 122px;
+  height: 560px;
+}
+.help {
+  width: 582px;
+  height: 146px;
+}
+.udo {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 101.1%;
+  /* or 73px */
+
+  letter-spacing: -0.03em;
+
+  color: #007640;
+}
+
+.areu {
+  width: 683px;
+  height: 90px;
+  margin-top: 31px;
+}
+
+.anind {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+
+.influencers {
+  height: 662px;
+  padding: 140px 162px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+.bt1 {
+  background: #ffbb62;
+  border-radius: 50px;
+  width: 100px;
+  height: 32px;
+  border: none;
+}
+.cnetwithus {
+  width: 481px;
+  height: 207px;
+  margin-top: 40px;
+}
+.cwithus {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  /* or 69px */
+
+  letter-spacing: -0.03em;
+
+  color: #121212;
+}
+
+.fromtech {
+  width: 481px;
+  height: 120px;
+  margin-top: 32px;
+}
+
+.texttech {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+
+  color: #121212;
+
+  opacity: 0.6;
+}
+
+.assured {
+  display: flex;
+}
+.leftpane {
+  background: #029f58;
+  padding: 120px 140px;
+  width: 50%;
+  /* width: 720px; */
+}
+
+.lefthead {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+  align-items: center;
+}
+
+.rightpane {
+  background: url(assets/Rectangle\ 36.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border: 1px solid black; */
+  width: 50%;
+  /* padding: 0 80px; */
+}
+.chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 18px;
+  padding-right: 200px;
+  background: white;
+  margin: auto;
+  width: 70%;
+  height: 99px;
+}
+
+.chatmsg {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  color: #000000;
+}
+
+.chat2 {
+  padding: 15px 15px;
+  width: 379px;
+  height: 114px;
+  background: #ffffff;
+  border-radius: 20px 20px 0px 20px;
+  margin-top: 53px;
+  margin-left: 200px;
+}
+
+.chat3 {
+  padding: 15px 15px;
+  width: 212px;
+  height: 78px;
+  background: #ffffff;
+  border-radius: 20px 20px 0px 20px;
+  margin-top: 53px;
+  margin-left: 87px;
+}
+
+.chat3 {
+  padding: 15px 15px;
+  width: 212px;
+  height: 78px;
+  background: #ffffff;
+  border-radius: 20px 20px 0px 20px;
+  margin-top: 40px;
+  margin-left: 87px;
+}
+
+.chat3 {
+  padding: 15px 15px;
+  width: 212px;
+  height: 78px;
+  background: #ffffff;
+  border-radius: 20px 20px 0px 20px;
+  margin-top: 40px;
+  margin-left: 87px;
+}
+.grouppicture{
+  display: none;
+}
+.chat4 {
+  padding: 15px 15px;
+  width: 305px;
+  height: 105px;
+  background: #ffffff;
+  border-radius: 20px 20px 0px 20px;
+  margin-top: 40px;
+  margin-left: 87px;
+  margin-bottom: 20px;
+}
+
+.typesend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  background: white;
+  margin: auto;
+  width: 70%;
+  height: 99px;
+}
+
+.msgin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 100%;
+  margin-right: 14px;
+  height: 54px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  padding: 0 15px;
+}
+.icons {
+  display: flex;
+}
+
+.asreply {
+  width: 100%;
+  min-height: 136px;
+  margin-top: 60px;
+}
+
+.beassured {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 100.1%;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.offer {
+  width: 100%;
+  min-height: 90px;
+  margin-top: 60px;
+}
+
+.earoffer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.9;
+}
+.clip {
+  margin-right: 15px;
+}
+
+.earnmoney {
+  display: flex;
+  padding: 94px 150px 0 144px;
+  justify-content: space-between;
+}
+
+.influencerbutton {
+  width: 110px;
+  height: 32px;
+  background: #ff8c62;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 116.6%;
+  letter-spacing: -0.03em;
+  color: #000000;
+  border: none;
+}
+
+.earnmoneywhileuchat {
+  width: 481px;
+  height: 138px;
+  left: 736px;
+  top: 243px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #121212;
+  width: 481px;
+  height: 138px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #121212;
+  margin-top: 46px;
+}
+
+.asaninfluencer {
+  width: 481px;
+  height: 90px;
+  margin-top: 32px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #121212;
+}
+
+.words {
+  margin-top: 77px;
+}
+.calling {
+  display: flex;
+}
+.incoming {
+  width: 50%;
+  background: #272727;
+}
+.filternoise {
+  padding: 151px 119px;
+  width: 50%;
+  background: #000000;
+}
+.filternoisehead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filtertexthead {
+  width: 481px;
+  height: 138px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  margin-top: 53px;
+}
+
+.filtertext {
+  width: 481px;
+  height: 120px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.6;
+  margin-top: 32px;
+}
+.timelineandtext {
+  padding: 130px 50px 130px 70px;
+}
+
+.ear1assurance {
+  width: 371px;
+  height: 138px;
+
+  /* H2 */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  /* or 69px */
+
+  letter-spacing: -0.03em;
+
+  color: #007640;
+}
+
+.timeline {
+  margin-top: 163px;
+}
+
+.timelineandpicturecontainer {
+  display: flex;
+}
+
+.uk-timeline .uk-timeline-item:not(:last-of-type):before {
+  background: #dadee4;
+  content: "";
+  height: 100%;
+  left: 19px;
+  position: absolute;
+  top: 20px;
+  width: 2px;
+  z-index: -1;
+}
+.uk-timeline .uk-timeline-item .uk-timeline-icon .uk-badge {
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+}
+
+.uk-timeline .uk-timeline-item .uk-timeline-content {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0 0 0 1rem;
+}
+.tmlnc {
+  padding: 25px 0;
+}
+.uk-timeline-content .tmlnc h5 {
+  width: 481px;
+  height: 42px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 116.6%;
+  /* identical to box height, or 42px */
+
+  letter-spacing: -0.03em;
+
+  /* Black */
+
+  color: #121212;
+}
+.uk-timeline-content .tmlnc p {
+  width: 379px;
+  height: 60px;
+
+  /* paragraph/var 2 */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+
+  /* Black */
+
+  color: #121212;
+
+  opacity: 0.6;
+}
+.uk-timeline-icon .uk-badge {
+  /* background: #3984f5; */
+}
+
+.tcsection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 73px;
+}
+
+.pictureofphone {
+  /* border: 2px solid black; */
+  z-index: -5;
+}
+
+.gh {
+  padding-right: 20px;
+}
+.getahead {
+  position: relative;
+  padding: 105px 100px 0 103px;
+  width: 100%;
+  margin-top: -20%;
+  z-index: 5;
+  margin-right: 10px;
+  /* height: 623px; */
+  /* left: 0px;
+  top: 0px; */
+
+  background: #029f58;
+  border-radius: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.getahead1 {
+  width: 490px;
+  height: 148px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 102.6%;
+
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+.save {
+  width: 490px;
+  height: 30px;
+
+  /* /paragraph/var 1 */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  margin-top: 32px;
+
+  color: #ffffff;
+}
+.downloadbutton {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44.37px;
+}
+.gooleplaybutton {
+  width: 90%;
+}
+.footersection {
+  display: flex;
+  padding: 130px 50px 130px 70px;
+}
+
+.logoandsocial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding-top: 200px;
+}
+.socialicons {
+  display: flex;
+}
+.logo1 {
+  margin-bottom: 31.4px;
+}
+
+.facebook {
+  margin-right: 30px;
+}
+hr {
+  margin: auto;
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.bein {
+  width: 833px;
+  height: 45px;
+
+  font-family: DM Sans;
+  font-style: normal;
+
+  font-size: 30px;
+  line-height: 150%;
+  /* identical to box height, or 45px */
+
+  /* Black */
+
+  color: #121212;
+}
+.form1 {
+  width: 100%;
+  height: 56px;
+  margin-top: 24px;
+}
+.email {
+  width: 70%;
+  height: 100%;
+  padding: 10px;
+}
+.submit {
+  height: 100%;
+  width: 20%;
+  background: black;
+  color: white;
+  border: 1px solid rgba(18, 18, 18, 0.3);
+  border-radius: 10px;
+}
+.final {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.finallists {
+  display: flex;
+  flex-direction: column;
+}
+.finallistitems {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 165.4%;
+  letter-spacing: 0.02em;
+  color: #121212;
+  margin-bottom: 30px;
+}
+
+.mobile{
+  display: none;
+}
+@media screen and (max-width: 765px) {
+  .ham-label {
+    display: flex;
+  }
+
+  ul {
+    display: none;
+  }
+  #hamburger:checked ~ .nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background-color: #ffffff;
+    color: #000000;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 25px;
+  }
+  li {
+    margin-bottom: 40px;
+  }
+  .close-label {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 25px;
+  }
+
+  .title {
+    font-size: 54px;
+    line-height: 100.1%;
+    /* or 54px */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+  }
+  .description-wrapper {
+    width: 311px;
+  }
+  .description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .downloadbuttons {
+    flex-direction: column;
+  }
+  .iphoneimages {
+    display: none;
+  }
+  .help {
+    width: 311px;
+    height: 70px;
+  }
+  .udo {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 101.6%;
+    /* or 35px */
+
+    letter-spacing: -0.03em;
+  }
+  .aboutus{
+    padding: 56px 32px; 
+  }
+  .areu{
+    width: 311px;
+    height: 144px;
+  }
+  .anind{
+    font-size: 16px;
+    text-align: center;
+  }
+  .influencers{
+    padding: 32px 32px;
+    flex-direction: column;
+  }
+  .picdiv{
+    display: none;
+  }
+
+.cnetwithus {
+  width: 311px;
+  height: 104px;
+}
+.cwithus{
+  font-weight: 500;
+font-size: 34px;
+line-height: 101.6%;
+/* or 35px */
+
+letter-spacing: -0.03em;
+
+color: #000000;
+}
+
+.fromtech {
+  width: 311px;
+  height: 96px;
+}
+.texttech{
+  font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #121212;
+
+opacity: 0.6;
+}
+
+.assured{
+  flex-direction: column;
+}
+.rightpane{
+  display: none;
+}
+.leftpane{
+  padding: 32px 32px;
+  width: 100%;
+}
+.asreply{
+  width: 311px;
+  height: 70px;
+}
+.beassured{
+  font-size: 34px;
+line-height: 101.6%;
+/* or 35px */
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+.earoffer{
+  font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+}
+.earnmoney{
+  flex-direction: column;
+  padding: 32px 32px;
+}
+.phone{
+  width: 249px;
+  height: 478px;
+}
+.earnmoneywhileuchat{
+  width: 311px;
+  height: 70px;
+  font-size: 34px;
+line-height: 101.6%;
+/* or 35px */
+
+letter-spacing: -0.03em;
+}
+.asaninfluencer{
+  width: 311px;
+height: 72px;
+left: 32px;
+top: 244px;
+
+/* Body Mobile */
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+/* Black */
+
+color: #121212;
+
+opacity: 0.6;
+}
+.calling{
+  flex-direction: column;
+}
+.incoming{
+  display: none;
+}
+.filternoise{
+  width: 100%;
+  padding: 32px 32px;
+}
+
+.filtertexthead{
+  width: 311px;
+height: 68px;
+left: 32px;
+top: 208px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 101.1%;
+/* or 34px */
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+.filtertext{
+  width: 311px;
+height: 120px;
+left: 32px;
+top: 302px;
+
+/* Body Mobile */
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #FFFFFF;
+}
+.timelineandtext{
+  padding: 56px 32px 0 32px;
+}
+.ear1assurance{
+  width: 311px;
+height: 35px;
+left: 32px;
+top: 56px;
+
+/* H2 Mobile */
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 101.6%;
+/* identical to box height, or 35px */
+
+letter-spacing: -0.03em;
+
+color: #007640;
+}
+
+.timelineandpicturecontainer{
+  flex-direction: column;
+}
+.uk-timeline-content .tmlnc h5{
+  width: 269px;
+  height: 28px;
+ 
+  
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 116.6%;
+  /* identical to box height, or 28px */
+  
+  letter-spacing: -0.03em;
+  
+  /* Black */
+  
+  color: #121212;
+}
+
+.uk-timeline-content .tmlnc p{
+  width: 269px;
+height: 48px;
+
+/* Body Mobile */
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+/* Black */
+
+color: #121212;
+
+opacity: 0.6;
+}
+.pictureofphone{
+  display: none;
+}
+.gh{
+  width: 335px;
+  padding: 64px 24px;
+}
+.getahead{
+  flex-direction: column;
+  padding: 56px 32px;
+}
+.pictureofhandandphone{
+  display: none;
+}
+.getahead1{
+  width: 287px;
+  height: 98px;
+
+  
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 101.6%;
+  /* or 49px */
+  
+  letter-spacing: -0.03em;
+  
+  color: #FFFFFF; 
+}
+
+.save{
+  width: 287px;
+height: 48px;
+
+/* Body Mobile 2 */
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #FFFFFF;
+
+}
+.footersection{
+  flex-direction: column;
+  padding: 32px 32px;
+}
+.logoandsocial{
+  width: 100%;
+  padding-top: 50px;
+}
+.final{
+  flex-direction: column;
+}
+.ear1logo{
+  width: 96px;
+  height: 33.71px
+}
+.facebook{
+  width:48px;
+  height: 48px;
+  margin-right: 15px;
+}
+.bein{
+  width: 335px;
+height: 72px;
+
+
+font-family: DM Sans;
+font-style: normal;
+
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+
+
+/* Black */
+
+color: #121212;
+}
+.grouppicture{
+  display: block;
+}
+.mobile{
+  display: block;
+}
+}
